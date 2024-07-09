@@ -1,9 +1,9 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class aa {
+public class Operaçoes {
 
-    private aa() {
+    private Operaçoes() {
         Scanner teclado = new Scanner(System.in);
         System.out.print(
                 "Escolha a operação matématica: \n1 - Soma \n2 - Subtração \n3 - Multiplicação \n4 - Divisão \n5 - Potência \n6 - Raiz Quadrada \nR:");
@@ -85,6 +85,6 @@ public class aa {
     }
 
     public static void main(String[] args) {
-        new aa();
+        new Operaçoes();
     }
 }
